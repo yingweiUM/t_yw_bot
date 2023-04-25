@@ -5,6 +5,7 @@ import streamlit as st
 
 tele_token = st.secrets["tele_token"]
 
+print('Test')
 print(tele_token)
 st.text('Service running...')
 
